@@ -1,0 +1,6 @@
+[submodule "vendors/secp256k1-zkp"]
+	path = vendors/secp256k1-zkp
+	url = https://github.com/ElementsProject/secp256k1-zkp.git
+[submodule "vendors/rapidjson"]
+	path = vendors/rapidjson
+	url = https://github.com/Tencent/rapidjson.git
