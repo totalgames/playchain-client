@@ -9,3 +9,4 @@ out
 build/
 *.user
 *.orig
+nohup.out
