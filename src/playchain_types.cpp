@@ -253,7 +253,7 @@ ProtocolVersion::operator std::string() const
 
 bool PlaychainTableInfoExt::free() const
 {
-    return pending_proposals.empty() && cash.empty() && playing_cash.empty();
+    return state == State::NO_GAME && pending_proposals.empty() && cash.empty() && playing_cash.empty();
 }
 
 uint32_t PlaychainBlockHeaderInfo::block_num(const BlockIdType& id)
